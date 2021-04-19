@@ -79,10 +79,33 @@ p {
     border-bottom: 1px dashed black;
 }
 
+.top-content .about-header {
+    width: 100%;
+    display: flex;
+    justify-content:space-evenly;
+    align-content: space-between;
+    margin: 0 auto;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+
+
+.top-content .header-image-container {
+    display: block;
+    padding: 20px;
+}
+
 .top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+
+
+header nav a {
+    color: black;
+    text-decoration: none;
 }
 
 .middle-content {
@@ -111,6 +134,14 @@ p {
     align-items: center;
     justify-content: center;
 }
+
+.box-teal {
+    background-color: teal;
+
+}
+
+
+
 
 .bottom-content {
     display: flex;
