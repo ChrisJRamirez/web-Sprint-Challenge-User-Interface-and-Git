@@ -80,11 +80,11 @@ p {
 }
 
 
-.container .about-header {
-    width: 100%;
+.about-header nav{
+    width: 800px;
     display: flex;
     justify-content: space-evenly;
-    align-content: center;
+    align-items:center;
     padding: 20px 2%;
     font-size: 14px;
 }
@@ -183,7 +183,7 @@ footer nav a {
 }
 
 .top-about-content .text-container {
-    padding: 0 1%;
+    padding: 0 4%;
     padding-bottom: 20px; 
 }
 
@@ -195,7 +195,7 @@ footer nav a {
 .about-middle-content{
     display: flex;
     justify-content: space-around;
-    /* border-bottom:1px dashed black; */
+
 }
 
 
@@ -204,13 +204,14 @@ footer nav a {
     flex-direction: column;
     width: 48%;
     padding: 0 1%;
-    padding-bottom: 20px
+    padding-bottom: 2rem;
+    border-bottom:1px dashed black;
 
 }
 
 h3{
     border: 2.5px solid black;
-    border-radius: 25%;
+    border-radius: 25px;
     width: 125px;
     padding: 5px;
     text-align: center;
@@ -222,5 +223,11 @@ h3{
     padding-bottom: 10px;
 }
 .about-middle-content img {
-    padding-bottom: 10px;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.bottom-about-content {
+    padding: 3rem 2%;
+
 }
