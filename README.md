@@ -33,14 +33,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
+Semantic HTML is used to go beyond the basic appearance of HTML elements. When used properly, it can help with SEO and enable a better experience for those with various disabilities. Furthermore, it can help your colleagues to more easily interpret your code and understand what they are looking at.
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+Block level elements take up their own line and their width is defined by their parent.
 
 3. What are the 4 areas of the box model?
+The 4 areas of the box model are : content,padding, border, & margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
+While using flexbox, align-items:center would work on the cross-axis, or perpendicular to the main-axis.
 
 5. Explain why git is valuable to a team of developers.
+Git is valuable in numerous ways to a team of developers. For starters, it allows each member of a team to work on their copy of a project on their local repository and we can make our own branch separate from the main branch. Throughout the time working on the project, they can commit/save changes and timestamp their changes. With each commit, you are able to go back in time to said timestamp, in case you make a mistake later on and mess up your code. Furthermore, it allows your team and yourself to see the progress you have made and the flow of your coding. When you are ready, you can then push your project to a remote repository for your team to look at and review. When you are on team working on a project, git allows for you to breakup the work so that everyone can work on a a specific piece, or even allow you to all work on solving the same issue, while maintaining autonomy over your code. Since everything is tracked and timestamped, git can be used to pull code from the individual to later be merged with the main branch. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
